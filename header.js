@@ -2,7 +2,7 @@ document.write(`
 	<div class="container my-4 ">
 		<div class="row justify-content-center">
 			<div class="col-lg mb-lg-4">
-				<img src="images/excel_banner.jpg" width="500" class="img-fluid" alt="" srcset="">
+				<img src="images/excel_banner.jpg" width="400" class="img-fluid" alt="" srcset="">
 			</div>
 			<div class="col-lg mx-2 align-self-center">
 				<div class="my-3">
