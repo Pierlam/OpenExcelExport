@@ -22,7 +22,10 @@ document.write(`
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="analysis.html">Analysis</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="About.html">About</a>
 					</li>
 				</ul>
 			</div>

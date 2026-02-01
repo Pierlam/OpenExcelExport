@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <title>OpenExcelExport application</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>OpenExcelExport - Download</title>
 </head>
 
 <body>	
@@ -17,14 +18,26 @@
 		<div class="col-md-12">
 			<h2>Download the application</h2>
 			<p>The application can be downloaded here: <a href="downloads/OpenExcelExport_v0.1.1.zip">OpenExcelExport_v0.1.1.zip</a>.</p>
-		</div>
-		<div class="col-md-12">
-			<h2>Install the application</h2>
-			<p>Choose a target folder, then unzip files from the archive.and you are ready to execute it to analyse Excel files.</p>
+			<p>Choose a target folder, then unzip files from the archive.</p>
+			<p>Open a Terminal (or Bash), go inside the folder and execute the application:</p>
+			  <pre>
+>OpenExcelExport.exe
+			  </pre>
+			<p>If execution displays this message below, you have to download and install the dotnet runtime.</p>
+			  <pre>
+To Run This Application, You Must Install .NET Framework
+			  </pre>
 		</div>
 		<div class="col-md-12">
 			<h2>Install the dotnet runtime</h2>
-			<p>To execute the application, you will need to install the dotnet runtime, net8.</p>
+			<p>To execute the application, you need to download and install the dotnet runtime net8 or greater.</p>
+			<p>For Windows: <a href="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.2/dotnet-runtime-10.0.2-win-x64.exe">dotnet-runtime-10.0.2-win-x64.exe</a>.</p>
+			<p>For Mac: <a href="https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.2/dotnet-runtime-10.0.2-osx-x64.pkg">dotnet-runtime-10.0.2-osx-x64.pkg</a>.</p>
+			<p>For Linux Debian: execute the bash command:</p>
+			  <pre>
+sudo apt-get install -y dotnet-runtime-10.0
+			  </pre>
+
 		</div>
 	</div>
 	
