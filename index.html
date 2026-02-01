@@ -4,62 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>OpenExcelExport application</title>
 </head>
 <body>
-    <div class="container">
-        <h1>OpenExcelExport </h1>
-		<p>By Pierlam, last update: 2026-01-24</p> 
-		<p>OpenExcelExport is a basic but useful application to extract main data from an excel: Shared strings, Styles/CellFormats, Fills, Borders and Fonts.
-		This application is open source and free of charge.</p>
-		<p>The application export all these data in an output excel file. Each extracted data are displayed in a different tabpage.</p>
-		<img src="images/excelIn_to_excelRes.jpg" width="850" alt="Excel to analyse to excel result">
+	<script src="header.js "></script>
 
-        <h1>Download the application</h1>
-		<p>The application can be downloaded here:<a href="downloads/OpenExcelExport_v0.1.1.zip">OpenExcelExport_v0.1.1.zip</a>. Then unzip files and you are ready to execute it to analyse Excel files.</p>
+	<div class="container my-4 ">
+		<div class="row justify-content-center">
+			<div class="col-lg mb-lg-4">
+				<img src="images/excel_banner.jpg" width="500" class="img-fluid" alt="" srcset="">
+			</div>
+			<div class="col-lg mx-2 align-self-center">
+				<div class="my-3">
+					<h1 class="text-center">OpenExcelExport</h1>
+					<p>OpenExcelExport is a basic but useful open-source application to extract main data from an excel: Shared strings, Styles/CellFormats, Fills, Borders and Fonts.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <h1>Execute the application</h1>
-        <h2>Execute the application without parameter</h2>
-		<p>Open a Terminal and execute the application.</p>
-		<img src="images/cmd_exec_OpenExcelExport.jpg" alt="Execute OpenExcelExport in a cmd">
-		<br>
-		<p>If you execute the application without any parameter, a short help will be displayed:</p>
-		<img src="images/cmd_exec_empty_OpenExcelExport.jpg" width="850" alt="Execute OpenExcelExport in a cmd">
+	<div class="container my-5">
+		<div class="col-md-12">
+			<h2>Usage</h2>
+			<p>The application export all these data in an output excel file. Each extracted data are displayed in a different tabpage.</p>
+			<img src="images/excelIn_to_excelRes.jpg" width="850" alt="Excel to analyse to excel result">
+		</div>
+		
+		<div class="col-md-12">
+		<h2>Download the application</h2>
+		<p>The application can be downloaded here: <a href="downloads/OpenExcelExport_v0.1.1.zip">OpenExcelExport_v0.1.1.zip</a>. Then unzip files and you are ready to execute it to analyse Excel files.</p>
+		</div>
+		
+		<div class="col-md-12">
+			<h2>Execute the application</h2>
+			<br>
+			<p>Open a Terminal and execute the application.</p>
+			<p>You have to analyse the content of an Excel file, execute the application and provide the two expected parameters:</p>
+			<p>1- The excel file to analyse,</p>
+			<p>2- the Excel result output file.</p>
+			<img src="images/cmd_exec_2params_ok.jpg" alt="Execute OpenExcelExport in a cmd">
+			<p>More details <a href="execute.html">here</a></p>
+		</div>
+		
+		<div class="col-md-12">
+			<h2>Excel results</h2>
+			<p>Content for the third section goes here.</p>
+		</div>
+		
+		<div class="col-md-12">
+			<h2>Behind the scene</h2>
+			<p>Content for the third section goes here.</p>
+		</div>
+	</div>	
+	  
+	<script src="footer.js "></script>
 
-        <h2>Execute the application, Excel file doesn't exists</h2>
-		<p>If you try to analyse an Excel which does not exists, an error will be displayed.</p>
-		<img src="images/cmd_exec_error_OpenExcelExport.jpg" alt="Execute OpenExcelExport in a cmd with error">
-
-        <h2>Execute the application on an Excel file</h2>
-		<p>You have to analyse the content of an Excel file, execute the application and provide the two expected parameters:</p>
-		<p>1- The excel file to analyse,</p>
-		<p>2- the Excel result output file.</p>
-		<img src="images/cmd_exec_2params_ok.jpg" alt="Execute OpenExcelExport in a cmd">
-
-        <h1>Excel result</h1>
-		<p>The output Excel file contains the result of the analysis of the input excel file.There are 7 sheets.</p>
-		<br><p>Sheet #1 : Abstract. Contains general informations.</p>
-		<img src="images/excel_res_sheet1.jpg" width="750" alt="Excel result, sheet #1 - abstract" >
-		<br><p>Sheet #2 : Cells. Contains first cells details.</p>
-		<img src="images/excel_res_sheet2_cells.jpg" width="850" alt="Excel result, sheet #2 - first cells details">
-		<br><p>Sheet #3 : SharedStrings. Contains first shared strings.</p>
-		<img src="images/excel_res_sheet3_strings.jpg" width="850" alt="Excel result, sheet #3 - first SharedStrings">
-		<br><p>Sheet #4 : Styles-CellFormats. Contains styles definition, which are cellformats.</p>
-		<img src="images/excel_res_sheet4_styles.jpg" width="850" alt="Excel result, sheet #4 - Styles-CellFormats by sheet">
-		<br><p>Sheet #5 : Fills. Contains fills definition by sheet (cell background color)</p>
-		<img src="images/excel_res_sheet5_fills.jpg" width="850" alt="Excel result, sheet #5 - Fills definition by sheet">
-		<br><p>Sheet #6 : Borders. Contains borders definition by sheet (cell border color)</p>
-		<img src="images/excel_res_sheet6_borders.jpg" width="850" alt="Excel result, sheet #6 - borders definition by sheet">
-		<br><p>Sheet #7 : Fonts. Contains fonts definition by sheet</p>
-		<img src="images/excel_res_sheet7_fonts.jpg" width="850" alt="Excel result, sheet #7 - Fonts definition by sheet">
-
-        <h1>Behind the scene</h1>
-		<p>This application is a console application developed in C# which uses the library OpenExcelSdk</p>
-		<p>The library OpenExcelSdk can be found here: <a href="https://www.nuget.org/packages/OpenExcelSdk">nuget OpenExcelSdk</a> </p>
-		<p>Source code is available on Github and can be found here: <a href="https://github.com/Pierlam/OpenExcelSdk">github OpenExcelSdk</a> </p>
-		<p>Have a comment? A question to ask? A request? send a email to: <a href="mailto:pierlam-project@outlook.com">pierlam-project@outlook.com</a></p>
-
-    </div>
 </body>
 </html>
