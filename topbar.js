@@ -2,9 +2,15 @@ document.write(`
 	<!-- Navbar -->
 	<nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
 		<div class="container-fluid">
-			<div class="mx-4">
+			<div class="mx-1">
+			  <a href="index.html" title="OpenExcelExport">
+				<img class="mx-auto d-block" src="images/Lexerow-logo.jpg" width="64" alt="Home">
+				</a>
+			</div>
+			<div class="mx-2">
 				<a class="navbar-brand" href="index.html">OpenExcelExport</a>
 			</div>
+
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
 				aria-label="Toggle navigation">
