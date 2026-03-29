@@ -8,7 +8,7 @@ document.write(`
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-center text-white">
           <h1 class="mb-3">OpenExcelExport</h1>
-			<p>OpenExcelExport is a basic but useful open-source application to extract main data from an excel: Shared strings, Styles/CellFormats, Fills, Borders and Fonts.</p>
+			<p>OpenExcelExport is a basic but useful open-source application to extract technical data from an excel file: Shared strings, Styles/CellFormats, Fills, Borders and Fonts.</p>
         </div>
       </div>
     </div>
